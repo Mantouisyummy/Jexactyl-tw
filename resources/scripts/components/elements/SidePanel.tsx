@@ -97,7 +97,7 @@ export default () => {
                 )}
                 <div id={'logo'}>
                     <button onClick={onTriggerLogout} className={'navigation-link'}>
-                        <Tooltip placement={'bottom'} content={'Logout'}>
+                        <Tooltip placement={'bottom'} content={'登出'}>
                             <div className={'flex flex-row fixed bottom-0 mb-8 bg-gray-700 rounded-lg p-2'}>
                                 <Icon.LogOut size={32} />
                             </div>
