@@ -7,6 +7,7 @@ import { PaginatedResult } from '@/api/http';
 import { useLocation } from 'react-router-dom';
 import { Server } from '@/api/server/getServer';
 import Switch from '@/components/elements/Switch';
+import { Alert } from '@/components/elements/alert';
 import React, { useEffect, useState } from 'react';
 import Spinner from '@/components/elements/Spinner';
 import ServerRow from '@/components/dashboard/ServerRow';
