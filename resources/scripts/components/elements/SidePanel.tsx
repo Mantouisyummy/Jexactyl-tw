@@ -55,14 +55,14 @@ export default () => {
                     </div>
                 </div>
                 <NavLink to={'/'} className={'navigation-link'} exact>
-                    <Tooltip placement={'bottom'} content={'Servers'}>
+                    <Tooltip placement={'bottom'} content={'伺服器'}>
                         <div className={'bg-gray-700 rounded-lg p-2 my-8'}>
                             <Icon.Server size={32} />
                         </div>
                     </Tooltip>
                 </NavLink>
                 <NavLink to={'/account'} className={'navigation-link'}>
-                    <Tooltip placement={'bottom'} content={'Account'}>
+                    <Tooltip placement={'bottom'} content={'帳戶'}>
                         <div className={'bg-gray-700 rounded-lg p-2 my-8'}>
                             <Icon.User size={32} />
                         </div>
@@ -70,7 +70,7 @@ export default () => {
                 </NavLink>
                 {store && (
                     <NavLink to={'/store'} className={'navigation-link'}>
-                        <Tooltip placement={'bottom'} content={'Store'}>
+                        <Tooltip placement={'bottom'} content={'商城'}>
                             <div className={'bg-gray-700 rounded-lg p-2 my-8'}>
                                 <Icon.ShoppingCart size={32} />
                             </div>
@@ -79,7 +79,7 @@ export default () => {
                 )}
                 {tickets && (
                     <NavLink to={'/tickets'} className={'navigation-link'}>
-                        <Tooltip placement={'bottom'} content={'Tickets'}>
+                        <Tooltip placement={'bottom'} content={'客服單'}>
                             <div className={'bg-gray-700 rounded-lg p-2 my-8'}>
                                 <Icon.HelpCircle size={32} />
                             </div>
@@ -88,7 +88,7 @@ export default () => {
                 )}
                 {rootAdmin && (
                     <a href={'/admin'} className={'navigation-link'}>
-                        <Tooltip placement={'bottom'} content={'Admin'}>
+                        <Tooltip placement={'bottom'} content={'管理面板'}>
                             <div className={'bg-gray-700 rounded-lg p-2 my-8'}>
                                 <Icon.Settings size={32} />
                             </div>
