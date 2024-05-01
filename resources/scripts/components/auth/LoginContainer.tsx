@@ -125,7 +125,7 @@ const LoginContainer = ({ history }: RouteComponentProps) => {
                                     to={'/auth/register'}
                                     css={tw`text-xs text-neutral-500 tracking-wide no-underline uppercase hover:text-neutral-600`}
                                 >
-                                    Signup with Email
+                                    使用Email註冊
                                 </Link>
                             )}
                             {discord && (
